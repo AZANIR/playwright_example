@@ -1,0 +1,46 @@
+<testsuites id="" name="" tests="16" failures="0" skipped="0" errors="0" time="51.962305">
+<testsuite name="ui\login\check-login-page.spec.ts" timestamp="2025-10-24T17:37:29.673Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.545" errors="0">
+<testcase name="Login - Auth &amp; Dashboard › Login form is visible on Login page" classname="ui\login\check-login-page.spec.ts" time="7.545">
+</testcase>
+</testsuite>
+<testsuite name="ui\login\edge-cases-login.spec.ts" timestamp="2025-10-24T17:37:29.673Z" hostname="chromium" tests="4" failures="0" skipped="0" time="50.94" errors="0">
+<testcase name="Login - Edge Cases › Should handle empty email field" classname="ui\login\edge-cases-login.spec.ts" time="13.788">
+</testcase>
+<testcase name="Login - Edge Cases › Should handle empty password field" classname="ui\login\edge-cases-login.spec.ts" time="14.118">
+</testcase>
+<testcase name="Login - Edge Cases › Should handle special characters in email" classname="ui\login\edge-cases-login.spec.ts" time="13.975">
+</testcase>
+<testcase name="Login - Edge Cases › Should handle very long email input" classname="ui\login\edge-cases-login.spec.ts" time="9.059">
+</testcase>
+</testsuite>
+<testsuite name="ui\login\negative-login.spec.ts" timestamp="2025-10-24T17:37:29.673Z" hostname="chromium" tests="4" failures="0" skipped="0" time="37.844" errors="0">
+<testcase name="Login - Negative Scenarios › Should show error with invalid email format" classname="ui\login\negative-login.spec.ts" time="9.554">
+</testcase>
+<testcase name="Login - Negative Scenarios › Should show error with wrong password" classname="ui\login\negative-login.spec.ts" time="9.523">
+</testcase>
+<testcase name="Login - Negative Scenarios › Should show error with non-existent user" classname="ui\login\negative-login.spec.ts" time="9.56">
+</testcase>
+<testcase name="Login - Negative Scenarios › Should prevent login with empty credentials" classname="ui\login\negative-login.spec.ts" time="9.207">
+</testcase>
+</testsuite>
+<testsuite name="ui\login\submit-login.spec.ts" timestamp="2025-10-24T17:37:29.673Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.901" errors="0">
+<testcase name="Login - Auth &amp; Dashboard › User can login to Dashboard" classname="ui\login\submit-login.spec.ts" time="5.901">
+</testcase>
+</testsuite>
+<testsuite name="ui\login\ui-elements-login.spec.ts" timestamp="2025-10-24T17:37:29.673Z" hostname="chromium" tests="5" failures="0" skipped="0" time="19.367" errors="0">
+<testcase name="Login - UI Elements &amp; Navigation › Forgot Password link is visible and clickable" classname="ui\login\ui-elements-login.spec.ts" time="4.631">
+</testcase>
+<testcase name="Login - UI Elements &amp; Navigation › Sign Up link is visible and clickable" classname="ui\login\ui-elements-login.spec.ts" time="4.943">
+</testcase>
+<testcase name="Login - UI Elements &amp; Navigation › Login page title is displayed correctly" classname="ui\login\ui-elements-login.spec.ts" time="3.088">
+</testcase>
+<testcase name="Login - UI Elements &amp; Navigation › All form fields are present and enabled" classname="ui\login\ui-elements-login.spec.ts" time="3.523">
+</testcase>
+<testcase name="Login - UI Elements &amp; Navigation › Password field should mask input" classname="ui\login\ui-elements-login.spec.ts" time="3.182">
+</testcase>
+</testsuite>
+<testsuite name="ui\registration\user-can-register.spec.ts" timestamp="2025-10-24T17:37:29.673Z" hostname="chromium" tests="1" failures="0" skipped="0" time="19.015" errors="0">
+<testcase name="Registration - User Can Register › Should successfully register new user and see dashboard" classname="ui\registration\user-can-register.spec.ts" time="19.015">
+</testcase>
+</testsuite>
+</testsuites>
