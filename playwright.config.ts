@@ -27,7 +27,7 @@ export default defineConfig({
       'monocart-reporter',
       {
         name: 'RepMove E2E Test Report',
-        outputFile: 'monocart-report-ui/report.html',
+        outputFile: 'monocart-report-ui/index.html',
       },
     ],
   ],
